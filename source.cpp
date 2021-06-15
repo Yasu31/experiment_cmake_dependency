@@ -1,8 +1,9 @@
 #include <header.h>
-#include DEFINITION_H
+#include ROBOT_H
 #include <iostream>
 int main(){
-    std::cout << DEFINITION_H << std::endl;
-    std::cout << TEST << std::endl;
+    std::cout << ROBOT_H << std::endl;
+    std::cout << TEST1 << std::endl;
+    std::cout << TEST2 << std::endl;
     return 1;
 }

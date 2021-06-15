@@ -1,2 +1,5 @@
+project(experiment_cmake_dependency)
+cmake_minimum_required(VERSION 3.16)
 include_directories(include)
+add_definitions(-DROBOT_H="definition.h")
 add_executable(app source.cpp)
