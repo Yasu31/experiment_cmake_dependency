@@ -1,9 +1,13 @@
-#include <header.h>
-#include ROBOT_H
+#include <macro_given_as_headerfile.h>
+#include <variable_given_as_headerfile.h>
+#include HEADER_ONE
+#include HEADER_TWO 
 #include <iostream>
+
 int main(){
-    std::cout << ROBOT_H << std::endl;
-    std::cout << TEST1 << std::endl;
-    std::cout << TEST2 << std::endl;
+    std::cout << VAR_GIVEN_AS_MACRO << std::endl;
+    std::cout << MACRO_GIVEN_AS_MACRO << std::endl;
+    std::cout << MACRO_GIVEN_AS_HEADERFILE << std::endl;
+    std::cout << VAR_GIVEN_AS_HEADERFILE << std::endl;
     return 1;
 }
