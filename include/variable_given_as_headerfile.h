@@ -1,1 +1,0 @@
-int VAR_GIVEN_AS_HEADERFILE = 4;
